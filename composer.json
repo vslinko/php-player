@@ -1,0 +1,32 @@
+{
+    "name": "rithis/php-player",
+    "description": "PHP audio player",
+    "keywords": ["audio", "player"],
+    "homepage": "https://github.com/rithis/php-player",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vyacheslav Slinko",
+            "email": "vyacheslav.slinko@rithis.com",
+            "role": "Founder"
+        }
+    ],
+    "support": {
+        "email": "support@rithis.com",
+        "issues": "https://github.com/rithis/php-player/issues",
+        "wiki": "https://github.com/rithis/php-player/wiki",
+        "source": "https://github.com/rithis/php-player"
+    },
+    "require": {
+        "php": ">=5.4",
+        "react/stream": "0.2.*",
+        "react/event-loop": "0.2.*",
+        "nass600/get-id3": "@dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "Rithis\\Player": ""
+        }
+    },
+    "target-dir": "Rithis/Player"
+}
